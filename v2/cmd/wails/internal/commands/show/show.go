@@ -2,10 +2,11 @@ package show
 
 import (
 	"fmt"
-	"github.com/leaanthony/clir"
-	"github.com/wailsapp/wails/v2/cmd/wails/internal"
-	"github.com/wailsapp/wails/v2/internal/github"
 	"io"
+
+	"github.com/frankfang/wails/v2/cmd/wails/internal"
+	"github.com/frankfang/wails/v2/internal/github"
+	"github.com/leaanthony/clir"
 )
 
 // AddSubcommand adds the `show` command for the Wails application

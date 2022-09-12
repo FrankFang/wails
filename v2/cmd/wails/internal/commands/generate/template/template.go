@@ -9,8 +9,8 @@ import (
 
 	"github.com/leaanthony/debme"
 
+	"github.com/frankfang/wails/v2/internal/fs"
 	"github.com/leaanthony/gosod"
-	"github.com/wailsapp/wails/v2/internal/fs"
 
 	"github.com/leaanthony/clir"
 	"github.com/tidwall/sjson"

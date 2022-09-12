@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/wailsapp/wails/v2/internal/frontend/desktop/windows/winc/w32"
+	"github.com/frankfang/wails/v2/internal/frontend/desktop/windows/winc/w32"
 )
 
 type direction int

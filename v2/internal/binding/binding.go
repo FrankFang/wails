@@ -10,10 +10,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/wailsapp/wails/v2/internal/typescriptify"
+	"github.com/frankfang/wails/v2/internal/typescriptify"
 
+	"github.com/frankfang/wails/v2/internal/logger"
 	"github.com/leaanthony/slicer"
-	"github.com/wailsapp/wails/v2/internal/logger"
 )
 
 type Bindings struct {

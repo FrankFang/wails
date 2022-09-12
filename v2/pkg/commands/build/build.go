@@ -8,12 +8,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/wailsapp/wails/v2/internal/fs"
+	"github.com/frankfang/wails/v2/internal/fs"
 
-	"github.com/wailsapp/wails/v2/internal/shell"
+	"github.com/frankfang/wails/v2/internal/shell"
 
-	"github.com/wailsapp/wails/v2/internal/project"
-	"github.com/wailsapp/wails/v2/pkg/clilogger"
+	"github.com/frankfang/wails/v2/internal/project"
+	"github.com/frankfang/wails/v2/pkg/clilogger"
 )
 
 // Mode is the type used to indicate the build modes

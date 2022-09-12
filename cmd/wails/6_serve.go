@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"runtime"
 
+	"github.com/frankfang/wails/cmd"
 	"github.com/leaanthony/spinner"
-	"github.com/wailsapp/wails/cmd"
 )
 
 func init() {

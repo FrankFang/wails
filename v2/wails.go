@@ -3,9 +3,9 @@
 package wails
 
 import (
-	"github.com/wailsapp/wails/v2/internal/app"
-	"github.com/wailsapp/wails/v2/internal/signal"
-	"github.com/wailsapp/wails/v2/pkg/options"
+	"github.com/frankfang/wails/v2/internal/app"
+	"github.com/frankfang/wails/v2/internal/signal"
+	"github.com/frankfang/wails/v2/pkg/options"
 )
 
 // Run creates an application based on the given config and executes it

@@ -1,7 +1,10 @@
 package runtime
 
-import "github.com/wailsapp/wails/lib/interfaces"
-import "strings"
+import (
+	"strings"
+
+	"github.com/frankfang/wails/lib/interfaces"
+)
 
 // Dialog exposes an interface to native dialogs
 type Dialog struct {

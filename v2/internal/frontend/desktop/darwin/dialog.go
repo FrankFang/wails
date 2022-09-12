@@ -18,8 +18,8 @@ import (
 	"sync"
 	"unsafe"
 
+	"github.com/frankfang/wails/v2/internal/frontend"
 	"github.com/leaanthony/slicer"
-	"github.com/wailsapp/wails/v2/internal/frontend"
 )
 
 // Obj-C dialog methods send the response to this channel

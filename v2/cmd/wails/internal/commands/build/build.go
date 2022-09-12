@@ -11,17 +11,17 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/wailsapp/wails/v2/internal/colour"
-	"github.com/wailsapp/wails/v2/internal/project"
-	"github.com/wailsapp/wails/v2/internal/system"
+	"github.com/frankfang/wails/v2/internal/colour"
+	"github.com/frankfang/wails/v2/internal/project"
+	"github.com/frankfang/wails/v2/internal/system"
 
-	"github.com/wailsapp/wails/v2/cmd/wails/internal"
-	"github.com/wailsapp/wails/v2/internal/gomod"
+	"github.com/frankfang/wails/v2/cmd/wails/internal"
+	"github.com/frankfang/wails/v2/internal/gomod"
 
+	"github.com/frankfang/wails/v2/pkg/clilogger"
+	"github.com/frankfang/wails/v2/pkg/commands/build"
 	"github.com/leaanthony/clir"
 	"github.com/leaanthony/slicer"
-	"github.com/wailsapp/wails/v2/pkg/clilogger"
-	"github.com/wailsapp/wails/v2/pkg/commands/build"
 )
 
 // AddBuildSubcommand adds the `build` command for the Wails application

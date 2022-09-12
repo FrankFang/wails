@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/wailsapp/wails/lib/interfaces"
-	"github.com/wailsapp/wails/lib/logger"
-	"github.com/wailsapp/wails/lib/messages"
+	"github.com/frankfang/wails/lib/interfaces"
+	"github.com/frankfang/wails/lib/logger"
+	"github.com/frankfang/wails/lib/messages"
 )
 
 // Manager manages the IPC subsystem

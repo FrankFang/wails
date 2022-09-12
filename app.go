@@ -4,15 +4,15 @@ import (
 	"os"
 	"syscall"
 
+	"github.com/frankfang/wails/cmd"
+	"github.com/frankfang/wails/lib/binding"
+	"github.com/frankfang/wails/lib/event"
+	"github.com/frankfang/wails/lib/interfaces"
+	"github.com/frankfang/wails/lib/ipc"
+	"github.com/frankfang/wails/lib/logger"
+	"github.com/frankfang/wails/lib/renderer"
+	wailsruntime "github.com/frankfang/wails/runtime"
 	"github.com/syossan27/tebata"
-	"github.com/wailsapp/wails/cmd"
-	"github.com/wailsapp/wails/lib/binding"
-	"github.com/wailsapp/wails/lib/event"
-	"github.com/wailsapp/wails/lib/interfaces"
-	"github.com/wailsapp/wails/lib/ipc"
-	"github.com/wailsapp/wails/lib/logger"
-	"github.com/wailsapp/wails/lib/renderer"
-	wailsruntime "github.com/wailsapp/wails/runtime"
 )
 
 // -------------------------------- Compile time Flags ------------------------------

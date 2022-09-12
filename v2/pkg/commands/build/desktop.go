@@ -1,8 +1,8 @@
 package build
 
 import (
-	"github.com/wailsapp/wails/v2/internal/fs"
-	"github.com/wailsapp/wails/v2/pkg/buildassets"
+	"github.com/frankfang/wails/v2/internal/fs"
+	"github.com/frankfang/wails/v2/pkg/buildassets"
 )
 
 // DesktopBuilder builds applications for the desktop

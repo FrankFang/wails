@@ -17,14 +17,14 @@ import (
 	"sync"
 	"time"
 
+	"github.com/frankfang/wails/v2/internal/binding"
+	"github.com/frankfang/wails/v2/internal/frontend"
+	"github.com/frankfang/wails/v2/internal/frontend/assetserver"
+	"github.com/frankfang/wails/v2/internal/logger"
+	"github.com/frankfang/wails/v2/internal/menumanager"
+	"github.com/frankfang/wails/v2/pkg/menu"
+	"github.com/frankfang/wails/v2/pkg/options"
 	"github.com/labstack/echo/v4"
-	"github.com/wailsapp/wails/v2/internal/binding"
-	"github.com/wailsapp/wails/v2/internal/frontend"
-	"github.com/wailsapp/wails/v2/internal/frontend/assetserver"
-	"github.com/wailsapp/wails/v2/internal/logger"
-	"github.com/wailsapp/wails/v2/internal/menumanager"
-	"github.com/wailsapp/wails/v2/pkg/menu"
-	"github.com/wailsapp/wails/v2/pkg/options"
 	"golang.org/x/net/websocket"
 )
 

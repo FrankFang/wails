@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/wailsapp/wails/lib/logger"
+	"github.com/frankfang/wails/lib/logger"
 )
 
 type boundFunction struct {

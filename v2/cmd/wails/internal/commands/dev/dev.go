@@ -20,21 +20,21 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/frankfang/wails/v2/cmd/wails/internal"
+	"github.com/frankfang/wails/v2/internal/gomod"
 	"github.com/google/shlex"
-	"github.com/wailsapp/wails/v2/cmd/wails/internal"
-	"github.com/wailsapp/wails/v2/internal/gomod"
 
-	"github.com/wailsapp/wails/v2/internal/project"
+	"github.com/frankfang/wails/v2/internal/project"
 
+	"github.com/frankfang/wails/v2/internal/colour"
 	"github.com/pkg/browser"
-	"github.com/wailsapp/wails/v2/internal/colour"
 
+	"github.com/frankfang/wails/v2/internal/fs"
+	"github.com/frankfang/wails/v2/internal/process"
+	"github.com/frankfang/wails/v2/pkg/clilogger"
+	"github.com/frankfang/wails/v2/pkg/commands/build"
 	"github.com/fsnotify/fsnotify"
 	"github.com/leaanthony/clir"
-	"github.com/wailsapp/wails/v2/internal/fs"
-	"github.com/wailsapp/wails/v2/internal/process"
-	"github.com/wailsapp/wails/v2/pkg/clilogger"
-	"github.com/wailsapp/wails/v2/pkg/commands/build"
 )
 
 func LogGreen(message string, args ...interface{}) {

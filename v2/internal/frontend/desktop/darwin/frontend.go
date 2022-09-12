@@ -27,11 +27,11 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/wailsapp/wails/v2/internal/binding"
-	"github.com/wailsapp/wails/v2/internal/frontend"
-	"github.com/wailsapp/wails/v2/internal/frontend/assetserver"
-	"github.com/wailsapp/wails/v2/internal/logger"
-	"github.com/wailsapp/wails/v2/pkg/options"
+	"github.com/frankfang/wails/v2/internal/binding"
+	"github.com/frankfang/wails/v2/internal/frontend"
+	"github.com/frankfang/wails/v2/internal/frontend/assetserver"
+	"github.com/frankfang/wails/v2/internal/logger"
+	"github.com/frankfang/wails/v2/pkg/options"
 )
 
 const startURL = "wails://wails/"

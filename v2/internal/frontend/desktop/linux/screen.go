@@ -41,9 +41,10 @@ Screen GetNThMonitor(int monitor_num, GtkWindow *window){
 */
 import "C"
 import (
-	"github.com/pkg/errors"
-	"github.com/wailsapp/wails/v2/internal/frontend"
 	"sync"
+
+	"github.com/frankfang/wails/v2/internal/frontend"
+	"github.com/pkg/errors"
 )
 
 type Screen = frontend.Screen

@@ -599,9 +599,9 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/wailsapp/wails/v2/internal/frontend"
-	"github.com/wailsapp/wails/v2/pkg/menu"
-	"github.com/wailsapp/wails/v2/pkg/options"
+	"github.com/frankfang/wails/v2/internal/frontend"
+	"github.com/frankfang/wails/v2/pkg/menu"
+	"github.com/frankfang/wails/v2/pkg/options"
 )
 
 func gtkBool(input bool) C.gboolean {

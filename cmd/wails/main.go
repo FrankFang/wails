@@ -4,7 +4,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/wailsapp/wails/cmd"
+	"github.com/frankfang/wails/cmd"
 )
 
 // Create Logger

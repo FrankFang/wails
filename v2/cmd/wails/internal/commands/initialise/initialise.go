@@ -12,14 +12,14 @@ import (
 	"github.com/flytam/filenamify"
 	"github.com/leaanthony/slicer"
 
-	"github.com/wailsapp/wails/v2/pkg/buildassets"
+	"github.com/frankfang/wails/v2/pkg/buildassets"
 
-	"github.com/wailsapp/wails/v2/cmd/wails/internal/commands/initialise/templates"
+	"github.com/frankfang/wails/v2/cmd/wails/internal/commands/initialise/templates"
 
+	"github.com/frankfang/wails/v2/pkg/clilogger"
+	"github.com/frankfang/wails/v2/pkg/git"
 	"github.com/leaanthony/clir"
 	"github.com/pkg/errors"
-	"github.com/wailsapp/wails/v2/pkg/clilogger"
-	"github.com/wailsapp/wails/v2/pkg/git"
 )
 
 // AddSubcommand adds the `init` command for the Wails application

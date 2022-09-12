@@ -7,8 +7,8 @@ import (
 	"sync"
 	"unsafe"
 
+	"github.com/frankfang/wails/v2/internal/frontend/desktop/windows/go-webview2/webview2loader"
 	"github.com/jchv/go-winloader"
-	"github.com/wailsapp/wails/v2/internal/frontend/desktop/windows/go-webview2/webview2loader"
 
 	"golang.org/x/sys/windows"
 )

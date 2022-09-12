@@ -4,9 +4,10 @@
 package windows
 
 import (
-	"github.com/wailsapp/wails/v2/internal/frontend/desktop/windows/winc"
-	"github.com/wailsapp/wails/v2/pkg/menu/keys"
 	"strings"
+
+	"github.com/frankfang/wails/v2/internal/frontend/desktop/windows/winc"
+	"github.com/frankfang/wails/v2/pkg/menu/keys"
 )
 
 var ModifierMap = map[keys.Modifier]winc.Modifiers{

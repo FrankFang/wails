@@ -4,7 +4,7 @@
 
 Wails is in constant development and new releases are regularly "tagged". This usually happens when all the newer code on `master` has been tested and confirmed working. If you need a bugfix or feature that has not yet made it to a release, it's possible to use the latest "bleeding edge" version using the following steps:
 
-- `git clone https://github.com/wailsapp/wails`
+- `git clone https://github.com/frankfang/wails/`
 - `cd wails/v2/cmd/wails`
 - `go install`
 
@@ -28,7 +28,7 @@ To revert back to a stable version, run:
 
 If you want to test a branch, follow the instructions above, but ensure you switch the branch you want to test before installing:
 
-- `git clone https://github.com/wailsapp/wails`
+- `git clone https://github.com/frankfang/wails/`
 - `cd wails`
 - `git checkout -b branch-to-test --track origin/branch-to-test`
 - `cd v2/cmd/wails`
@@ -38,7 +38,7 @@ If you want to test a branch, follow the instructions above, but ensure you swit
 
 If you want to test a PR, follow the instructions above, but ensure you fetch the PR and switch the branch before installing. Please replace `[IDofThePR]` with the ID of the PR shown on github.com:
 
-- `git clone https://github.com/wailsapp/wails`
+- `git clone https://github.com/frankfang/wails/`
 - `cd wails`
 - `git fetch -u origin pull/[IDofThePR]/head:test/pr-[IDofThePR]`
 - `git checkout test/pr-[IDofThePR]`

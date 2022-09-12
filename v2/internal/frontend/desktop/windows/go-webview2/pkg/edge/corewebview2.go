@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/wailsapp/wails/v2/internal/frontend/desktop/windows/go-webview2/internal/w32"
+	"github.com/frankfang/wails/v2/internal/frontend/desktop/windows/go-webview2/internal/w32"
 
-	"github.com/wailsapp/wails/v2/internal/frontend/desktop/windows/go-webview2/webviewloader"
+	"github.com/frankfang/wails/v2/internal/frontend/desktop/windows/go-webview2/webviewloader"
 	"golang.org/x/sys/windows"
 )
 

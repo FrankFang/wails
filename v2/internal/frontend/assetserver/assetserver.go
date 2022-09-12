@@ -8,9 +8,9 @@ import (
 	"net/http/httptest"
 	"strconv"
 
-	"github.com/wailsapp/wails/v2/internal/frontend/runtime"
-	"github.com/wailsapp/wails/v2/internal/logger"
-	"github.com/wailsapp/wails/v2/pkg/options"
+	"github.com/frankfang/wails/v2/internal/frontend/runtime"
+	"github.com/frankfang/wails/v2/internal/logger"
+	"github.com/frankfang/wails/v2/pkg/options"
 
 	"golang.org/x/net/html"
 )

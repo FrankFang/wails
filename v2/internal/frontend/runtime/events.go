@@ -1,9 +1,10 @@
 package runtime
 
 import (
-	"github.com/wailsapp/wails/v2/internal/frontend"
-	"github.com/wailsapp/wails/v2/internal/logger"
 	"sync"
+
+	"github.com/frankfang/wails/v2/internal/frontend"
+	"github.com/frankfang/wails/v2/internal/logger"
 )
 
 // eventListener holds a callback function which is invoked when

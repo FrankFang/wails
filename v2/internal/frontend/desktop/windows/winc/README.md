@@ -1,7 +1,7 @@
 # winc
 
 ** This is a fork of [tadvi/winc](https://github.com/tadvi/winc) for the sole purpose of integration
-with [Wails](https://github.com/wailsapp/wails). This repository comes with ***no support*** **
+with [Wails](https://github.com/frankfang/wails/). This repository comes with ***no support*** **
 
 Common library for Go GUI apps on Windows. It is for Windows OS only. This makes library smaller than some other UI
 libraries for Go.

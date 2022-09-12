@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/wailsapp/wails/v2/internal/frontend/runtime"
+	"github.com/frankfang/wails/v2/internal/frontend/runtime"
 )
 
 /*

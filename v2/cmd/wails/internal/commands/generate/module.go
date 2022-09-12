@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/frankfang/wails/v2/cmd/wails/internal"
+	"github.com/frankfang/wails/v2/internal/shell"
 	"github.com/leaanthony/clir"
-	"github.com/wailsapp/wails/v2/cmd/wails/internal"
-	"github.com/wailsapp/wails/v2/internal/shell"
 )
 
 // AddModuleCommand adds the `module` subcommand for the `generate` command

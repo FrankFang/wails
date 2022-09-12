@@ -2,8 +2,9 @@ package menumanager
 
 import (
 	"fmt"
-	"github.com/wailsapp/wails/v2/pkg/menu"
 	"sync"
+
+	"github.com/frankfang/wails/v2/pkg/menu"
 )
 
 // MenuItemMap holds a mapping between menuIDs and menu items

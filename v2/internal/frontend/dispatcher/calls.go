@@ -3,8 +3,9 @@ package dispatcher
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/wailsapp/wails/v2/internal/frontend"
 	"strings"
+
+	"github.com/frankfang/wails/v2/internal/frontend"
 )
 
 type callMessage struct {

@@ -6,8 +6,8 @@ package app
 import (
 	"os/exec"
 
-	"github.com/wailsapp/wails/v2/internal/frontend/desktop/windows/winc/w32"
-	"github.com/wailsapp/wails/v2/pkg/options"
+	"github.com/frankfang/wails/v2/internal/frontend/desktop/windows/winc/w32"
+	"github.com/frankfang/wails/v2/pkg/options"
 )
 
 // App defines a Wails application structure
@@ -22,7 +22,7 @@ func (a *App) Shutdown() {}
 // CreateApp creates the app!
 func CreateApp(_ *options.App) (*App, error) {
 	result := w32.MessageBox(0,
-		`Wails applications will not build without the correct build tags. 
+		`Wails applications will not build without the correct build tags.
 Please use "wails build" or press "OK" to open the documentation on how to use "go build"`,
 		"Error",
 		w32.MB_ICONERROR|w32.MB_OKCANCEL)

@@ -1,11 +1,12 @@
 package system
 
 import (
-	"github.com/wailsapp/wails/v2/internal/shell"
-	"github.com/wailsapp/wails/v2/internal/system/operatingsystem"
-	"github.com/wailsapp/wails/v2/internal/system/packagemanager"
 	"os/exec"
 	"strings"
+
+	"github.com/frankfang/wails/v2/internal/shell"
+	"github.com/frankfang/wails/v2/internal/system/operatingsystem"
+	"github.com/frankfang/wails/v2/internal/system/packagemanager"
 )
 
 var (

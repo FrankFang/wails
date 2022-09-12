@@ -5,15 +5,15 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/frankfang/wails/cmd"
 	"github.com/leaanthony/spinner"
-	"github.com/wailsapp/wails/cmd"
 )
 
 func init() {
 
 	projectHelper := cmd.NewProjectHelper()
 	projectOptions := projectHelper.NewProjectOptions()
-	commandDescription := `Generates a new Wails project using the given flags. 
+	commandDescription := `Generates a new Wails project using the given flags.
 Any flags that are required and not given will be prompted for.`
 	build := false
 

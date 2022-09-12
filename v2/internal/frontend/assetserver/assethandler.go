@@ -12,9 +12,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/wailsapp/wails/v2/internal/fs"
-	"github.com/wailsapp/wails/v2/internal/logger"
-	"github.com/wailsapp/wails/v2/pkg/options"
+	"github.com/frankfang/wails/v2/internal/fs"
+	"github.com/frankfang/wails/v2/internal/logger"
+	"github.com/frankfang/wails/v2/pkg/options"
 )
 
 //go:embed defaultindex.html

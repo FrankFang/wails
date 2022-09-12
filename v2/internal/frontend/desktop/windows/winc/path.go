@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/wailsapp/wails/v2/internal/frontend/desktop/windows/winc/w32"
+	"github.com/frankfang/wails/v2/internal/frontend/desktop/windows/winc/w32"
 )
 
 func knownFolderPath(id w32.CSIDL) (string, error) {

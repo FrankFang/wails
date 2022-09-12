@@ -2,7 +2,7 @@ package main
 
 import (
   _ "embed"
-  "github.com/wailsapp/wails"
+  "github.com/frankfang/wails/"
 )
 
 //go:embed frontend/build/main.js

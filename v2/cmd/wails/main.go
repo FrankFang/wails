@@ -2,20 +2,21 @@ package main
 
 import (
 	"fmt"
-	"github.com/wailsapp/wails/v2/cmd/wails/internal"
-	"github.com/wailsapp/wails/v2/cmd/wails/internal/commands/show"
 	"os"
 
-	"github.com/wailsapp/wails/v2/internal/colour"
+	"github.com/frankfang/wails/v2/cmd/wails/internal"
+	"github.com/frankfang/wails/v2/cmd/wails/internal/commands/show"
 
-	"github.com/wailsapp/wails/v2/cmd/wails/internal/commands/update"
+	"github.com/frankfang/wails/v2/internal/colour"
 
+	"github.com/frankfang/wails/v2/cmd/wails/internal/commands/update"
+
+	"github.com/frankfang/wails/v2/cmd/wails/internal/commands/build"
+	"github.com/frankfang/wails/v2/cmd/wails/internal/commands/dev"
+	"github.com/frankfang/wails/v2/cmd/wails/internal/commands/doctor"
+	"github.com/frankfang/wails/v2/cmd/wails/internal/commands/generate"
+	"github.com/frankfang/wails/v2/cmd/wails/internal/commands/initialise"
 	"github.com/leaanthony/clir"
-	"github.com/wailsapp/wails/v2/cmd/wails/internal/commands/build"
-	"github.com/wailsapp/wails/v2/cmd/wails/internal/commands/dev"
-	"github.com/wailsapp/wails/v2/cmd/wails/internal/commands/doctor"
-	"github.com/wailsapp/wails/v2/cmd/wails/internal/commands/generate"
-	"github.com/wailsapp/wails/v2/cmd/wails/internal/commands/initialise"
 )
 
 func fatal(message string) {

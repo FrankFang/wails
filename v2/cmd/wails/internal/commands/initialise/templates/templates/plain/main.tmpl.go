@@ -3,8 +3,8 @@ package main
 import (
 	"embed"
 
-	"github.com/wailsapp/wails/v2"
-	"github.com/wailsapp/wails/v2/pkg/options"
+	"github.com/frankfang/wails/v2"
+	"github.com/frankfang/wails/v2/pkg/options"
 )
 
 //go:embed frontend/src

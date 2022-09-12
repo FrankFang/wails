@@ -1,6 +1,6 @@
 package runtime
 
-import "github.com/wailsapp/wails/lib/logger"
+import "github.com/frankfang/wails/lib/logger"
 
 // Log exposes the logging interface to the runtime
 type Log struct{}

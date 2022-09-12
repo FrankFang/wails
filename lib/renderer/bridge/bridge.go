@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"sync"
 
+	"github.com/frankfang/wails/lib/interfaces"
+	"github.com/frankfang/wails/lib/logger"
+	"github.com/frankfang/wails/lib/messages"
 	"github.com/gorilla/websocket"
-	"github.com/wailsapp/wails/lib/interfaces"
-	"github.com/wailsapp/wails/lib/logger"
-	"github.com/wailsapp/wails/lib/messages"
 )
 
 type messageType int

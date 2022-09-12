@@ -7,10 +7,10 @@
   <a href="https://github.com/frankfang/wails/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
   </a>
-  <a href="https://goreportcard.com/report/github.com/wailsapp/wails">
-    <img src="https://goreportcard.com/badge/github.com/wailsapp/wails" />
+  <a href="https://goreportcard.com/report/github.com/frankfang/wails/">
+    <img src="https://goreportcard.com/badge/github.com/frankfang/wails/" />
   </a>
-  <a href="http://godoc.org/github.com/wailsapp/wails">
+  <a href="http://godoc.org/github.com/frankfang/wails/">
     <img src="https://img.shields.io/badge/godoc-reference-blue.svg" />
   </a>
   <a href="https://www.codefactor.io/repository/github/wailsapp/wails">

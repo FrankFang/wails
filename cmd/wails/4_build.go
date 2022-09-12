@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/frankfang/wails/cmd"
 	"github.com/leaanthony/spinner"
-	"github.com/wailsapp/wails/cmd"
 )
 
 // getSupportedPlatforms returns a slice of platform/architecture

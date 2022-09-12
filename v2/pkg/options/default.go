@@ -1,8 +1,8 @@
 package options
 
 import (
-	"github.com/wailsapp/wails/v2/pkg/logger"
-	"github.com/wailsapp/wails/v2/pkg/menu"
+	"github.com/frankfang/wails/v2/pkg/logger"
+	"github.com/frankfang/wails/v2/pkg/menu"
 )
 
 // Default options for creating the App

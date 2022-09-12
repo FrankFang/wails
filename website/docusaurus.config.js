@@ -140,7 +140,7 @@ const config = {
             ],
           },
           {
-            href: "https://github.com/wailsapp/wails",
+            href: "https://github.com/frankfang/wails/",
             label: "GitHub",
             position: "right",
           },
@@ -156,7 +156,7 @@ const config = {
           alt: "Wails Logo",
           src: "img/wails-logo-horizontal.svg",
           srcDark: "img/wails-logo-horizontal-dark.svg",
-          href: "https://github.com/wailsapp/wails",
+          href: "https://github.com/frankfang/wails/",
           width: 160,
           height: 50,
         },
@@ -183,7 +183,7 @@ const config = {
             items: [
               {
                 label: "Github",
-                href: "https://github.com/wailsapp/wails",
+                href: "https://github.com/frankfang/wails/",
               },
               {
                 label: "Twitter",
