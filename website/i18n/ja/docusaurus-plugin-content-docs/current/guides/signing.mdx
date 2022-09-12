@@ -17,7 +17,7 @@ on:
     # This Action only starts when you go to Actions and manually run the workflow.
 
 - name: Get Wails
-        run: go install github.com/wailsapp/wails/v2/cmd/wails@latest
+        run: go install github.com/frankfang/wails/v2/cmd/wails@latest
       - name: Build Wails app
         run: |
           wails build
@@ -34,7 +34,7 @@ on:
           name: wails-binaries-windows
           path: build/bin/*
       - name: Get Wails
-        run: go install github.com/wailsapp/wails/v2/cmd/wails@latest
+        run: go install github.com/frankfang/wails/v2/cmd/wails@latest
       - name: Build Wails app
         run: |
           wails build
@@ -117,7 +117,7 @@ jobs:
           node-version: 14
       # You may need to manually build you frontend here, unless you have configured frontend build and install commands in wails.json.
       - name: Get Wails
-        run: go install github.com/wailsapp/wails/v2/cmd/wails@latest
+        run: go install github.com/frankfang/wails/v2/cmd/wails@latest
       - name: Build Wails app
         run: |
           wails build
@@ -192,7 +192,7 @@ jobs:
           node-version: 14
       # You may need to manually build you frontend here, unless you have configured frontend build and install commands in wails.json.
       - name: Get Wails
-        run: go install github.com/wailsapp/wails/v2/cmd/wails@latest
+        run: go install github.com/frankfang/wails/v2/cmd/wails@latest
       - name: Build Wails app
         run: |
           wails build
@@ -337,7 +337,7 @@ jobs:
           node-version: 14
       # You may need to manually build you frontend here, unless you have configured frontend build and install commands in wails.json.
       - name: Get Wails
-        run: go install github.com/wailsapp/wails/v2/cmd/wails@latest
+        run: go install github.com/frankfang/wails/v2/cmd/wails@latest
       - name: Build Wails app
         run: |
           wails build
@@ -353,7 +353,7 @@ jobs:
           p12-file-base64: ${{ secrets.APPLE_DEVELOPER_CERTIFICATE_P12_BASE64 }}
           # The password used to import the PKCS12 file.
           - name: Get Wails
-        run: go install github.com/wailsapp/wails/v2/cmd/wails@latest
+        run: go install github.com/frankfang/wails/v2/cmd/wails@latest
       - name: Build Wails app
         run: |
           wails build

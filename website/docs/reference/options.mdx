@@ -10,7 +10,7 @@ The `Options.App` struct contains the application configuration.
 It is passed to the `wails.Run()` method:
 
 ```go title="Example"
-import "github.com/wailsapp/wails/v2/pkg/options"
+import "github.com/frankfang/wails/v2/pkg/options"
 
 func main() {
 
@@ -289,7 +289,7 @@ func (b *App) beforeClose(ctx context.Context) (prevent bool) {
 	dialog, err := runtime.MessageDialog(ctx, runtime.MessageDialogOptions{
 		Title:         "Quit?",
 		Message:       "Are you sure you want to quit?",
-		
+
 		Type: `         runtime`.QuestionDialog,
 
 	})

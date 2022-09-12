@@ -4,7 +4,7 @@
 
 <p align="center">
   Build desktop applications using Go & Web Technologies.<br/><br/>
-  <a href="https://github.com/wailsapp/wails/blob/master/LICENSE">
+  <a href="https://github.com/frankfang/wails/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
   </a>
   <a href="https://goreportcard.com/report/github.com/wailsapp/wails">
@@ -16,7 +16,7 @@
   <a href="https://www.codefactor.io/repository/github/wailsapp/wails">
     <img src="https://www.codefactor.io/repository/github/wailsapp/wails/badge" alt="CodeFactor" />
   </a>
-  <a href="https://github.com/wailsapp/wails/issues">
+  <a href="https://github.com/frankfang/wails/issues">
     <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="CodeFactor" />
   </a>
   <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fwailsapp%2Fwails?ref=badge_shield" alt="FOSSA Status">
@@ -25,8 +25,8 @@
   <a href="https://github.com/avelino/awesome-go" rel="nofollow">
     <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" />
   </a>
-  <a href="https://github.com/wailsapp/wails/workflows/release/badge.svg?branch=master" rel="nofollow">
-    <img src="https://github.com/wailsapp/wails/workflows/release/badge.svg?branch=master" alt="Release Pipelines" />
+  <a href="https://github.com/frankfang/wails/workflows/release/badge.svg?branch=master" rel="nofollow">
+    <img src="https://github.com/frankfang/wails/workflows/release/badge.svg?branch=master" alt="Release Pipelines" />
   </a>
 </p>
 
@@ -96,7 +96,7 @@ The legacy v1 docs can be found at [https://wails.app](https://wails.app).
 
 ### Roadmap
 
-The project roadmap may be found [here](https://github.com/wailsapp/wails/discussions/1484). Please consult
+The project roadmap may be found [here](https://github.com/frankfang/wails/discussions/1484). Please consult
 this before open up an enhancement request.
 
 ## Sponsors

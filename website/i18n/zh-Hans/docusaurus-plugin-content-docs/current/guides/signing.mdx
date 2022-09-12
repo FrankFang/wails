@@ -56,7 +56,7 @@ jobs:
           node-version: 14
       # You may need to manually build you frontend here, unless you have configured frontend build and install commands in wails.json.
       - name: Get Wails
-        run: go install github.com/wailsapp/wails/v2/cmd/wails@latest
+        run: go install github.com/frankfang/wails/v2/cmd/wails@latest
       - name: Build Wails app
         run: |
           wails build
@@ -155,7 +155,7 @@ jobs:
           node-version: 14
       # You may need to manually build you frontend here, unless you have configured frontend build and install commands in wails.json.
       - name: Get Wails
-        run: go install github.com/wailsapp/wails/v2/cmd/wails@latest
+        run: go install github.com/frankfang/wails/v2/cmd/wails@latest
       - name: Build Wails app
         run: |
           wails build
@@ -208,7 +208,7 @@ It is possible to use a Windows code signing Action like [this](https://github.c
 
 First off you need your code signing certificate from Apple. If you do not have one, a simple Google search will help you acquire one. Once you have your certificate, you need to export it and encode it to base64. [This tutorial](https://localazy.com/blog/how-to-automatically-sign-macos-apps-using-github-actions) shows you how to do that in an easy manner. Once you have exported your .p12 certificate file, you can encode it to base64 as seen in the tutorial with the following command: If you do not have one, a simple Google search will help you acquire one. Once you have your certificate, you need to export it and encode it to base64. [This tutorial](https://localazy.com/blog/how-to-automatically-sign-macos-apps-using-github-actions) shows you how to do that in an easy manner. Once you have exported your .p12 certificate file, you can encode it to base64 as seen in the tutorial with the following command: If you do not have one, a simple Google search will help you acquire one. Once you have your certificate, you need to export it and encode it to base64. [This tutorial](https://localazy.com/blog/how-to-automatically-sign-macos-apps-using-github-actions) shows you how to do that in an easy manner. Once you have exported your .p12 certificate file, you can encode it to base64 as seen in the tutorial with the following command:
 ```bash
-base64 Certificates.p12 | pbcopy 
+base64 Certificates.p12 | pbcopy
 ```
 
 Now you're ready to create some GitHub project secrets, just as with Windows:
@@ -266,7 +266,7 @@ jobs:
           node-version: 14
       # You may need to manually build you frontend here, unless you have configured frontend build and install commands in wails.json.
       - name: Get Wails
-        run: go install github.com/wailsapp/wails/v2/cmd/wails@latest
+        run: go install github.com/frankfang/wails/v2/cmd/wails@latest
       - name: Build Wails app
         run: |
           wails build
@@ -411,7 +411,7 @@ jobs:
           node-version: 14
       # You may need to manually build you frontend here, unless you have configured frontend build and install commands in wails.json.
       - name: Get Wails
-        run: go install github.com/wailsapp/wails/v2/cmd/wails@latest
+        run: go install github.com/frankfang/wails/v2/cmd/wails@latest
       - name: Build Wails app
         run: |
           wails build

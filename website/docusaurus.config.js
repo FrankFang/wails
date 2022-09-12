@@ -56,12 +56,12 @@ const config = {
                 docs: {
                     sidebarPath: require.resolve("./sidebars.js"),
                     // Please change this to your repo.
-                    editUrl: "https://github.com/wailsapp/wails/edit/master/website",
+                    editUrl: "https://github.com/frankfang/wails/edit/master/website",
                 },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/wailsapp/wails/edit/master/website/blog",
+          editUrl: "https://github.com/frankfang/wails/edit/master/website/blog",
         },
         theme: {
           customCss: [

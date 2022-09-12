@@ -4,7 +4,7 @@
 
 <p align="center">
   使用 Go 和 Web 技术构建桌面应用程序。<br/><br/>
-  <a href="https://github.com/wailsapp/wails/blob/master/LICENSE">
+  <a href="https://github.com/frankfang/wails/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
   </a>
   <a href="https://goreportcard.com/report/github.com/wailsapp/wails">
@@ -16,7 +16,7 @@
   <a href="https://www.codefactor.io/repository/github/wailsapp/wails">
     <img src="https://www.codefactor.io/repository/github/wailsapp/wails/badge" alt="CodeFactor" />
   </a>
-  <a href="https://github.com/wailsapp/wails/issues">
+  <a href="https://github.com/frankfang/wails/issues">
     <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="CodeFactor" />
   </a>
   <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fwailsapp%2Fwails?ref=badge_shield" alt="FOSSA Status">
@@ -25,8 +25,8 @@
   <a href="https://github.com/avelino/awesome-go" rel="nofollow">
     <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" />
   </a>
-  <a href="https://github.com/wailsapp/wails/workflows/release/badge.svg?branch=master" rel="nofollow">
-    <img src="https://github.com/wailsapp/wails/workflows/release/badge.svg?branch=master" alt="Release Pipelines" />
+  <a href="https://github.com/frankfang/wails/workflows/release/badge.svg?branch=master" rel="nofollow">
+    <img src="https://github.com/frankfang/wails/workflows/release/badge.svg?branch=master" alt="Release Pipelines" />
   </a>
 </p>
 
@@ -80,7 +80,7 @@ Wails v2 已针对所有 3 个平台发布了 Beta 版。如果您有兴趣尝�
 
 ### 路线图
 
-项目路线图可在[此处](https://github.com/wailsapp/wails/discussions/1484)找到。在提出增强请求之前请查阅此内容。
+项目路线图可在[此处](https://github.com/frankfang/wails/discussions/1484)找到。在提出增强请求之前请查阅此内容。
 
 ## 功能
 

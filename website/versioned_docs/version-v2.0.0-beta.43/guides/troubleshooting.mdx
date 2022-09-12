@@ -32,7 +32,7 @@ If this happens on Mac, try adding the following to your `Info.plist`:
 </dict>
 ```
 
-Reference: https://github.com/wailsapp/wails/issues/1504#issuecomment-1174317433
+Reference: https://github.com/frankfang/wails/issues/1504#issuecomment-1174317433
 
 ## Mac application not valid
 
@@ -74,13 +74,13 @@ window.go.main.App.TestFunc(msg, args).then((result) => { //without the 3 dots
     //handle error
 });
 ```
-Credit: https://github.com/wailsapp/wails/issues/1186
+Credit: https://github.com/frankfang/wails/issues/1186
 
 ## I''m having getting proxy errors when trying to install Wails
 
 If you are getting errors like this:
 ```
-"https://proxy.golang.org/github.com/wailsapp/wails/cmd/wails/@v/list": dial tcp 172.217.163.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+"https://proxy.golang.org/github.com/frankfang/wails/cmd/wails/@v/list": dial tcp 172.217.163.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
 ```
 it's probably because the official Go Proxy is being blocked (Users in China have reported this).
 The solution is to set up the proxy manually, eg:
@@ -88,7 +88,7 @@ The solution is to set up the proxy manually, eg:
 go env -w GO111MODULE=on
 go env -w GOPROXY=https://goproxy.cn,direct
 ```
-Source: https://github.com/wailsapp/wails/issues/1233
+Source: https://github.com/frankfang/wails/issues/1233
 
 ## The generated Typescript doesn''t have the correct types
 
@@ -108,4 +108,4 @@ the following imports to the `<head>` section of any new page you navigate to:
 </head>
 ```
 
-Source: https://github.com/wailsapp/wails/discussions/1512
+Source: https://github.com/frankfang/wails/discussions/1512
